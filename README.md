@@ -18,3 +18,12 @@ Throwaway experiments, Slack-triggered smoke tests, and scratch PRs. Promote las
 ## What does not belong here
 
 Secrets, private hostnames, personal data, or anything that should not be public.
+
+## Active briefs
+
+Public-safe architecture (role names only). Owner go/no-go lives in the OPEN-QS file.
+
+- Singapore execution-plane hub: `docs/SINGAPORE-HUB-BRIEF.md`
+- Mesh authorize + Signal checklist: `docs/SINGAPORE-HUB-MESH-CHECKLIST.md`
+- Heavy harness MVP: `docs/SINGAPORE-HEAVY-HARNESS.md`
+- Owner go/no-go: `docs/SINGAPORE-HUB-OPEN-QS.md`
