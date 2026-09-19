@@ -6,7 +6,7 @@
 **Does not decide:** which pubkey line is appended on which host (checklist), which coding harness to install first (harness note + OPEN-QS), any spend number.
 **Surface note:** this file is public. Role names only. No private hosts, mesh IPs, key material, Hub ids, or machine ids. Operational receipts live on Memory Hub.
 
-**Parent standing:** `docs/FLEET-REACHABILITY-ADR.md` (2026-09-18) — dual-plane; **no** fleet private keys or mesh client on the **shared Eden / Grok conversation VM**. This brief does **not** repeal that ADR. Singapore is the separate execution-plane host that ADR §7 P1 left open.
+**Parent standing:** Fleet reachability ADR (2026-09-18; sibling PR on this repo, Hub `standing`) — dual-plane; **no** fleet private keys or mesh client on the **shared Eden / Grok conversation VM**. This brief does **not** repeal that ADR. Singapore is the separate execution-plane host that ADR left as P1.
 
 **Claim types**
 
@@ -227,7 +227,7 @@ PCSE gates *publish content*, not *credential placement*. Credential placement i
 
 | File | Job |
 |---|---|
-| `docs/FLEET-REACHABILITY-ADR.md` | Parent dual-plane ADR (sibling PR) |
+| Fleet reachability ADR (sibling PR, 2026-09-18) | Parent dual-plane standing |
 | `docs/SINGAPORE-HUB-MESH-CHECKLIST.md` | Pubkey authorize + Signal verify (no secrets) |
 | `docs/SINGAPORE-HEAVY-HARNESS.md` | Cursor CLI vs Codex vs open harness |
 | `docs/SINGAPORE-HUB-OPEN-QS.md` | Owner go / no-go |
