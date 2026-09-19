@@ -34,8 +34,8 @@ GO | NO-GO | DEFER — <date> — <owner> — <one-line reason / constraint>
 
 ## Q3 — Add `body_mode` and one instruction paragraph per mode to front agents? (Brief E2)
 
-- **Change:** `body_mode ∈ {replete, strained, critical}` derived from `max|z|` and viability breaches; front-agent instructions gain a mode-conditioned paragraph (replete: exploration budget open; strained: exploit-only, no new surfaces; critical: draft-only).
-- **Why:** the paper's core delta over ordinary health management — internal state as a *modulator*, not an input.
+- **Change:** `body_mode ∈ {replete, strained, critical}` derived from `max|z|` and viability breaches; front-agent instructions gain a mode-conditioned paragraph (replete: exploration budget open; strained: exploit-only, no new surfaces; critical: draft-only). Alongside it, per essential variable, the owner names the **actuator and authority tier** (Brief insight 2): inside σ → automatic; between σ and the viability edge → agent drafts, human gates; beyond → node suspended to draft-only. Naming the actuator is documentation, not automation.
+- **Why:** the paper's core delta over ordinary health management — internal state as a *modulator*, not an input — and its insistence that stability comes from a closed feedback loop, not from monitoring.
 - **Risk if GO:** this is the first item that changes agent *behaviour*. It only ever *restricts* (strained/critical remove options; replete restores the status quo), so it cannot expand authority. Mode flapping is the practical risk; thresholds are tunable.
 - **Risk if NO-GO:** digests remain prose that agents may ignore; "not blind to body condition" stays unenforced.
 - **Reversal:** remove field and paragraph.
