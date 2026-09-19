@@ -18,3 +18,9 @@ Throwaway experiments, Slack-triggered smoke tests, and scratch PRs. Promote las
 ## What does not belong here
 
 Secrets, private hostnames, personal data, or anything that should not be public.
+
+## Architecture briefs (public-safe)
+
+- `docs/CONNECT-ENGINE-BRIEF.md` — the「connect 引擎」: use platform reward signals as the price of admission, optimize qualified same-frequency contacts per post, on a fail-closed compliance data plane (Zernio analytics + official APIs + truly public signals only). Read §0 (Chinese synthesis) first.
+- `docs/CONNECT-ENGINE-OUTREACH-SLICES.md` — the only externally sayable conclusions from that brief, each with a claim type and a "running practice / design intent" level.
+- `docs/CONNECT-ENGINE-OPEN-QS.md` — eight owner go/no-go questions. Silent skip = no-go.
