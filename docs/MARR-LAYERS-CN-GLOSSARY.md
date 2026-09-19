@@ -4,7 +4,7 @@
 
 配套：[`MARR-LAYERS-ISOMORPHISM-BRIEF.md`](./MARR-LAYERS-ISOMORPHISM-BRIEF.md)（论证）、[`MARR-LAYERS-OPEN-QS.md`](./MARR-LAYERS-OPEN-QS.md)（主人未点头 = 不做公开页）。
 
-公开安全：无主机、无密钥、无私人运营细节。下列 Hub 编号只作已有出处，不新造。
+公开安全：无主机、无密钥、无私人运营细节。不新造 Hub 编号；出处见配套 brief §9。
 
 ---
 
