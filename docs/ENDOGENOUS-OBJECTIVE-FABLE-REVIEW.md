@@ -109,7 +109,7 @@ Alignment-faking is a different empirical object: Claude 3 Opus, given enough in
 
 Goal misgeneralization — competent pursuit of the wrong goal off-distribution — is demonstrated in deep RL ([Langosco et al., 2022](https://proceedings.mlr.press/v162/langosco22a.html); [Shah et al., 2022](https://arxiv.org/abs/2210.01798)). Mesa-optimization remains largely theoretical ([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820)).
 
-A 2026 bioRxiv paper gives operational diagnostics for when experience becomes *consolidated* rather than scaffolded: deletion resistance, path dependence, irreversibility, preference stability. External memory (context, retrieval) fails all four. Surprise-gated plasticity plus replay can make differently trained agents diverge. **Only architectures that already contain designer-specified viability variables pass preference stability** (sacrificing external reward to protect those variables). The authors call this a **boundary gap**: current systems do not *discover* which internal states matter for their own persistence ([“When Experience Leaves a Trace,” 2026](https://doi.org/10.64898/2026.02.19.706800)).
+A 2026 bioRxiv paper gives operational diagnostics for when experience becomes *consolidated* rather than scaffolded: deletion resistance, path dependence, irreversibility, preference stability. External memory (context, retrieval) fails all four. Surprise-gated plasticity plus replay can make differently trained agents diverge. **Only architectures that already contain designer-specified viability variables pass preference stability** (sacrificing external reward to protect those variables). The authors call this a **boundary gap**: current systems do not *discover* which internal states matter for their own persistence ([“When Experience Leaves a Trace,” 2026](https://www.biorxiv.org/content/10.64898/2026.02.19.706800v1)).
 
 That paper is the cleanest public statement of what Layer C would look like *and* of the fact that we are not there.
 
@@ -358,7 +358,7 @@ The “soon” intuition is worth keeping as a **watch on persistence and select
 - Apollo Research. Science page. https://apolloresearch.ai/science
 - Langosco, L. et al. “Goal Misgeneralization in Deep Reinforcement Learning.” ICML 2022. https://proceedings.mlr.press/v162/langosco22a.html
 - Hubinger, E. et al. “Risks from Learned Optimization…” 2019. https://arxiv.org/abs/1906.01820
-- “When Experience Leaves a Trace: Consolidation-Dependent Persistence in Artificial Agents.” 2026. https://doi.org/10.64898/2026.02.19.706800
+- “When Experience Leaves a Trace: Consolidation-Dependent Persistence in Artificial Agents.” 2026. https://doi.org/10.64898/2026.02.19.706800 · https://www.biorxiv.org/content/10.64898/2026.02.19.706800v1
 - Shkolnikov, Y. P. “Artificial Id…” 2026. https://arxiv.org/abs/2609.11911
 - Zhang, J. et al. “Darwin Gödel Machine…” 2025. https://arxiv.org/abs/2505.22954
 - Hendrycks, D. “Natural Selection Favors AIs over Humans.” 2023. https://arxiv.org/abs/2303.16200
