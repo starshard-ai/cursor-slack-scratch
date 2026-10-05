@@ -18,3 +18,9 @@ Throwaway experiments, Slack-triggered smoke tests, and scratch PRs. Promote las
 ## What does not belong here
 
 Secrets, private hostnames, personal data, or anything that should not be public.
+
+## Architecture briefs (public-safe)
+
+- `docs/NO-TOKEN-FEDERATION-BRIEF.md` — no-token, no-chain collaboration network that still behaves like a durable DAO-style org, mapped onto the dual-plane Hub + work-packet stack. Read §0 (Chinese synthesis) first.
+- `docs/NO-TOKEN-FEDERATION-OUTREACH-SLICES.md` — the only externally sayable conclusions from that brief, each with a claim type and a "sayable as" level.
+- `docs/NO-TOKEN-FEDERATION-OPEN-QS.md` — seven owner go/no-go questions. Silent skip = no-go.
